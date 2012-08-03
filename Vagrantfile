@@ -7,6 +7,7 @@ Vagrant::Config.run do |config|
 
   config.vm.provision :puppet do |puppet|
     puppet.manifests_path = "manifests"
-    puppet.manifest_file  = "CentOS-6.2-x86_64-minimal.pp"
+    puppet.manifest_file  = "site.pp"
+    puppet.module_path  = "modules"
   end
 end
