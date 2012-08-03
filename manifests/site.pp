@@ -1,4 +1,4 @@
-node defaule {
+node default {
   include site::repositories
   class {
     'glpi':
