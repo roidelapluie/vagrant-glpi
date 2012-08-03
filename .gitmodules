@@ -1,3 +1,6 @@
 [submodule "modules/glpi"]
 	path = modules/glpi
 	url = https://github.com/roidelapluie/puppet-glpi.git
+[submodule "modules/apache"]
+	path = modules/apache
+	url = https://github.com/roidelapluie/puppet-apache.git
